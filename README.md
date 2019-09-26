@@ -8,6 +8,13 @@ Clone, zip contents and import into ODA as a skill.
 If you download as a zip make sure to extract first and re-zip... 
 as the root folder will be the name of the project - you will need to remove this so that the root content items are the chatbot skill data items.
 
+## ODA Bot Config
+
+Exit Prompt Confidence Threshold = 0  
+Interrupt Prompt Confidence Threshold = 0  
+Interrupt Message - blank  
+Resume Message - blank  
+
 ## Todo
 
 Review cleanup YAML - ie Pizza banking bot base with more generic responses.
