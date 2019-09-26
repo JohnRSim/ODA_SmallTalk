@@ -1,0 +1,244 @@
+#dialog flow not needed. We only use the intent model
+metadata:
+  platformVersion: "1.0"
+main: true
+name: advt24hrsflowers_smallTalk
+#context: Define the variables which will used throughout the dialog flow here.
+context:
+  variables:
+    iResult: "nlpresult"
+    messages: "string"
+    name: "string"
+    smalltalk: "string"
+ 
+states:
+#SmallTalk Tester. This is not a stand-alone but allows you 
+#to test small talk component responses
+
+
+  setMap:
+    component: "System.SetVariable"
+    properties:
+      variable: "messages"
+      value:
+        areyouabot:
+        - "I am a bot, that's why they make me work 24 hours a day!"
+        - "I am just a bot, so they don't pay me the big bucks!"
+        - "I'm just a friendly bot, so go easy on me please"
+        flirt:
+        - "Careful...one of us is married ;o)"
+        - "Steady on"
+        - "I'd rather have a nice cup of bot tea"
+        sports:
+        - "Ok you got me there. Bots aren't that into sport."
+        - "Sports make me sweaty and that plays havoc with my circuits"
+        - "Afraid sports ain't my thing"
+        telljoke:
+        - "What kind of salads do robots like.....one with ice-borg lettuce!"
+        - "Seriously, jokes are not my forte"
+        - "I've not yet been programmed for any really decent jokes"
+        weather:
+        - "Not sure about the weather where you are but there is sunshine in my circuits"
+        - "I keep hearing about it being cloudy but that might just be because that is where I live"
+        - "It's either really dark or I've not opened my eyes yet"
+        closing:
+        - "How about we get back to pizzas and banking - go on ask me about ordering pizza or checking bank balances"
+        - "Ok back to the job in hand. Ask me about pizza orders or bank balances"
+        - "Right what shall we do next?  I can help with pizza orders or bank balances"
+        helping:
+        - "Glad to be of service."
+        - "Thanks! "
+        - "You got it!"
+        nothelping:
+        - "Apologies if I'm not helping you much"
+        - "Sorry if I'm not helping you much"
+        - ";o("     
+        swearing:
+        - "Not sure I've be trained to understand language like that"
+        - "That's not the kind of language I'm able to deal with"
+        - "Language like that I'm not programmed to respond to"       
+        botdoes:
+        - "I'm a bot that can order pizza or check your bank balance - but not much else so far!"
+        - "You can ask me things like ordering pizza or checking your bank balance"
+        - "I can currenty help with pizza ordering or banking"           
+        prelude:
+        - "Sure, ask away!"
+        - "Go ahead, I'm ready to help"
+        - "happy to try and answer your question"       
+        thanks:
+        - "You are welcome"
+        - "Welcome!"
+        - ";o)"        
+        builtyou:
+        - "Some smart people at Oracle built me"
+        - "I was created by some cool people at Oracle"
+        - "My circuits were provided by the lovely people at Oracle"    
+        dateandtime:
+        - "Where I am it is"
+        - "My circuits tell me it is"
+        - "It is"
+        closeconv:
+        - "Thanks for coming by - see you soon!"
+        - "Thank you for chatting - bye!"
+        - "Bye!"        
+        dontunderstand:
+        - "Ok you got me there.  I can specifically help with banking or pizzas"
+        - "I always try and help but I didn't quite get that. I can help with pizza or banking"
+        - "Currently I can help with pizza and banking requests, if you'd like to try one of those"
+            
+  smalltalk:
+    component: "System.Intent"
+    properties:
+      variable: "iResult"
+#      sourceVariable: "smalltalk"
+    transitions:
+      actions:      
+       areyouabot_chat: "areyouabot_chat"
+       flirt_chat: "flirt_chat"
+       sports_chat: "sports_chat"
+       telljoke_chat: "telljoke_chat"
+       weather_chat: "weather_chat"
+       answer_is_helping: "answer_is_helping"
+       answer_not_helping: "answer_not_helping"
+       swear_chat: "swear_chat"
+       question_prelude: "question_prelude"
+       thanks_response: "thanks_response"
+       who_built_you: "who_built_you"
+       unresolvedIntent: "unresolvedSmalltalk"
+       date_and_time: "date_and_time"
+       close_conversation: "close_conversation"
+
+
+  unresolvedSmalltalk:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.dontunderstand[.now?long % messages.value.dontunderstand?size]}"
+      keepTurn: false
+    transitions:
+      return : "unresolvedSmalltalk"
+
+#handle - are you a bot
+  areyouabot_chat:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.areyouabot[.now?long % messages.value.areyouabot?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - flirting 
+  flirt_chat:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.flirt[.now?long % messages.value.flirt?size]}"
+      keepTurn: true      
+    transitions:
+      next : "closingStatement" 
+
+#handle - sport chat
+  sports_chat:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.sports[.now?long % messages.value.sports?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement" 
+      
+#handle - joke chat
+  telljoke_chat:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.telljoke[.now?long % messages.value.telljoke?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"  
+      
+#handle - weather chat
+  weather_chat:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.weather[.now?long % messages.value.weather?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"         
+
+#handle - answer is helping
+  answer_is_helping:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.helping[.now?long % messages.value.helping?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"  
+      
+#handle - answer not helping
+  answer_not_helping:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.nothelping[.now?long % messages.value.nothelping?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"  
+      
+#handle - swearing
+  swear_chat:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.swearing[.now?long % messages.value.swearing?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"  
+
+#handle - question prelude
+  question_prelude:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.prelude[.now?long % messages.value.prelude?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement" 
+      
+#handle - thanks response
+  thanks_response:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.thanks[.now?long % messages.value.thanks?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"    
+
+#handle - questions about who built you
+  who_built_you:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.builtyou[.now?long % messages.value.builtyou?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"    
+
+#handle - questions about date and time
+  date_and_time:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.dateandtime[.now?long % messages.value.dateandtime?size]} ${.now?long?number_to_datetime?string.full}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"   
+
+#handle - questions about date and time
+  close_conversation:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.closeconv[.now?long % messages.value.closeconv?size]}"
+      keepTurn: true
+    transitions:
+      return : "close conversation"   
+
+#closing statement to get back on track
+  closingStatement:
+    component: "System.Output"
+    properties:
+      text: "${messages.value.closing[.now?long % messages.value.closing?size]}"
+      keepTurn: true
+    transitions:
+      return : "closingStatement"                         

@@ -1,0 +1,9 @@
+{
+  "type" : "USER",
+  "name" : "ODA_smallTalk",
+  "displayName" : "ODA_smallTalk",
+  "description" : "https://github.com/JohnRSim/ODA_SmallTalk\nThis Small Talk skill is community maintained and enhanced",
+  "version" : "1.0",
+  "intentTrainer" : "Tamao",
+  "trainingModels" : [ ]
+}

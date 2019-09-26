@@ -1,0 +1,29 @@
+{
+  "languageTag" : "default",
+  "keys" : {
+    "system.intent.date_and_time.conversationName" : {
+      "message" : "Date and Time"
+    },
+    "system.intent.question_prelude.conversationName" : {
+      "message" : "Intent1"
+    },
+    "system.intent.thanks_response.conversationName" : {
+      "message" : "thanks_response"
+    },
+    "system.intent.answer_not_helping.conversationName" : {
+      "message" : "answerNotHelping"
+    },
+    "system.intent.who_built_you.conversationName" : {
+      "message" : "WhoBuilt"
+    },
+    "system.intent.swear_chat.conversationName" : {
+      "message" : "swear_chat"
+    },
+    "system.intent.answer_is_helping.conversationName" : {
+      "message" : "answerHelping"
+    },
+    "system.intent.close_conversation.conversationName" : {
+      "message" : "Close Conversation"
+    }
+  }
+}

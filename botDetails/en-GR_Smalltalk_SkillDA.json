@@ -1,0 +1,8 @@
+{
+  "invocationName" : "GR_SmalltalkSkill",
+  "shortDescription" : "Smalltalk skill",
+  "fullDescription" : null,
+  "sampleInvocations" : [ "An example utterance" ],
+  "skillBotName" : "GR_Smalltalk_SkillDA",
+  "skillBotVersion" : "1.0"
+}
