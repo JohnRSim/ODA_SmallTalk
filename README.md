@@ -10,10 +10,10 @@ as the root folder will be the name of the project - you will need to remove thi
 
 ## ODA Bot Config
 
-Exit Prompt Confidence Threshold = 0
-Interrupt Prompt Confidence Threshold = 0
-Interrupt Message - blank
-Resume Message - blank
+Exit Prompt Confidence Threshold = 0  
+Interrupt Prompt Confidence Threshold = 0  
+Interrupt Message - blank  
+Resume Message - blank  
 
 ## Todo
 
