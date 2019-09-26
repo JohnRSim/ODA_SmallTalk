@@ -15,3 +15,5 @@ Review cleanup YAML - ie Pizza banking bot base with more generic responses.
 ## Release Notes
 
 First release - 26/09/19
+
+![alt text](assets/example.png)
