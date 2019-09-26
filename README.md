@@ -15,6 +15,9 @@ Interrupt Prompt Confidence Threshold = 0
 Interrupt Message - blank  
 Resume Message - blank  
 
+## Contributors
+Grant Ronald - Oracle
+
 ## Todo
 
 Review cleanup YAML - ie Pizza banking bot base with more generic responses.
