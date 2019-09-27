@@ -15,6 +15,13 @@ Interrupt Prompt Confidence Threshold = 0
 Interrupt Message - blank  
 Resume Message - blank  
 
+## Contributors
+[@gwronald](https://twitter.com/gwronald) Grant Ronald - Oracle  
+[@JRSim_UIX](https://twitter.com/JRSim_UIX) John Sim - Fishbowl Solutions  
+[@rsantrod](https://twitter.com/rsantrod) Ruben Rodriguez - Avanttic  
+[@iamsoham](https://twitter.com/iamsoham) Soham Dasgupta - Capgemini  
+
+
 ## Todo
 
 Review cleanup YAML - ie Pizza banking bot base with more generic responses.
