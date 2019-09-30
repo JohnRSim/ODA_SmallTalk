@@ -3,7 +3,7 @@
   "name" : "ODA_smallTalk",
   "displayName" : "ODA_smallTalk",
   "description" : "https://github.com/JohnRSim/ODA_SmallTalk\nThis Small Talk skill is community maintained and enhanced",
-  "version" : "1.0",
+  "version" : "1.0.1",
   "intentTrainer" : "Tamao",
   "trainingModels" : [ ]
 }
