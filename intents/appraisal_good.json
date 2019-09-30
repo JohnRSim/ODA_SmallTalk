@@ -1,0 +1,622 @@
+{
+  "name" : "appraisal_good",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "that's much better",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's nice of you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that was good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "very well",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's perfect",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's a good idea",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I'm glad to hear that",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good for you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "so sweet of you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that was cute",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "super",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's great",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it's perfect",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's awesome thank you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's fine",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "amazing",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "glad to hear that",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that was pretty good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "pretty good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "really good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "splendid",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "so good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it's amazing",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's fantastic",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it was good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "sweet",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's really good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's amazing",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "straight",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good to know",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "wonderful",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's very good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "very nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "this is great",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "great",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "really well",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's very nice of you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "not bad",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "pleasant",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "terrific",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it is good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "marvelous",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "not too bad",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's pretty good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "no it's okay",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that is awesome",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's very nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "perfect",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "cool",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "very good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good very good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that is nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's cute",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that is wonderful",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "super fantastic",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it is fine",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that was awesome",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it's great",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "very then",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "really nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "oh well",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "much better",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "this is good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that was very good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "so cool",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "glad to hear it",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it's awesome",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it's very good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "okay good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "fantastic",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's awesome",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's wonderful",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that was amazing",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's sweet of you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's not bad",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's really nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "fine",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ok good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's better",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good thing",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's a good thing",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "it's good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "this is awesome",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that is good",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "excellent",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  } ]
+}

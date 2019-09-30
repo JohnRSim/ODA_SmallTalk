@@ -1,0 +1,216 @@
+{
+  "name" : "emotions_ha_ha",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "haha that's funny",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ah",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ha ha ha ha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "he",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ahah lol",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "laughing out loud",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hah",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ahahaha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "huh",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's funny",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hahaha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hahaha very funny",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ha ha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ah ah ah",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "haha very funny",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ahah",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ahahah",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "lol",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "haha haha haha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hehehe",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "xd",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hahaha funny",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "lmao",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ha ha ha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "haha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "LMAO",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "ahaha",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hehe",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "haha funny",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  } ]
+}

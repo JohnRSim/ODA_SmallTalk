@@ -1,0 +1,90 @@
+{
+  "name" : "greetings_goodmorning",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "good morning there",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "a good morning",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "and a good morning to you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good morning to you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "morning",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "have a great morning",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good morning too",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hello good morning",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good morning",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "have a nice morning",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "top of the morning to you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hi good morning",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  } ]
+}

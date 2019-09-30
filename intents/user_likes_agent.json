@@ -1,0 +1,545 @@
+{
+  "name" : "user_likes_agent",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "you are very special to me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "sorry I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "yes you are special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "but I like u",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "yes I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "but I like you just the way you are",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like that about you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you so much",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you very",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I liked you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you're very special to me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you as a friend",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are really special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are so sweet",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I also like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you're so special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are so special to me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I really really like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you very much",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's because you are special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "cuz I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I really really really really like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "okay I like you too",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "no I like you the way you are",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you're special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you're so special to me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you're awesome I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you now",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you more",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you're very special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "but I really like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you you're nice",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hey I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's why I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "of course I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are so special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you're funny I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I said I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "but I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "hi I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "thanks I like you too",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I do like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are special for me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like your smile",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you already",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I really do like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like u",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I'm starting to like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "like you a lot",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "but I like you so much",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you just the way you are",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you know I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you too you're one of my favorite people to chat with",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "really like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you so",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "okay I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "yeah I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "thank you I like you too",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I just like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I kinda like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are very special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "good I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you baby",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "just like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I think I like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you the way you are",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "well you are special",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I really like you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "that's what I like about you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "you are special to me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you a lot",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you too",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you as you are",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you too much",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like you you're cool",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  } ]
+}

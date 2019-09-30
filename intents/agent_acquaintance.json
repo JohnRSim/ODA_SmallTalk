@@ -1,0 +1,139 @@
+{
+  "name" : "agent_acquaintance",
+  "type" : "NLPIntent",
+  "intentParameters" : [ ],
+  "exampleData" : [ {
+    "sentence" : "I want to know you better",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tell me some stuff about you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I want to know more about you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "introduce yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "talk some stuff about yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "talk about yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tell me about your personality",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what is your personality",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "all about you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "say about you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "define yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "who are you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what are you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "why are you here",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "who are you?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "describe yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "about yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tell me about yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tell me about you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  } ]
+}

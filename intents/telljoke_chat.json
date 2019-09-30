@@ -2,14 +2,7 @@
   "name" : "telljoke_chat",
   "intentParameters" : [ ],
   "exampleData" : [ {
-    "sentence" : "cheer me up",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "show me how funny you can be",
+    "sentence" : "do you have something funny for me?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -23,70 +16,7 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "make me lough",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
     "sentence" : "Make me laugh",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Are you funny?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Can I take you out",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "I like to giggle a bit",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "do you have another one",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "do you tell jokes",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "I am looking for something funny",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "tell me a one liner",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "tell me more jokes",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -100,21 +30,21 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "What about a joke",
+    "sentence" : "do you tell jokes",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Give me another one",
+    "sentence" : "I like to giggle a bit",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "do you have something funny for me?",
+    "sentence" : "Can I take you out",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -128,6 +58,20 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
+    "sentence" : "I am looking for something funny",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "cheer me up",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
     "sentence" : "cheer me up a bit",
     "translated" : null,
     "detectedLanguage" : null,
@@ -135,7 +79,42 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "how about jokes",
+    "sentence" : "show me how funny you can be",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Give me another one",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "What about a joke",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "do you have another one",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Hey, tell me a joke",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "tell me a one liner",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -149,7 +128,28 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Hey, tell me a joke",
+    "sentence" : "tell me more jokes",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Are you funny?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "make me lough",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "how about jokes",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,

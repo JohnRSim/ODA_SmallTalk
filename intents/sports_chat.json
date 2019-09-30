@@ -9,20 +9,6 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "do you like football",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Do you watch ESPN, BBC sports or Euro sport",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
     "sentence" : "I am holding my break for the Philly Flyers",
     "translated" : null,
     "detectedLanguage" : null,
@@ -30,49 +16,7 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "What sport do you like?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "what is your favourite soccer team",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
     "sentence" : "Do you like sports",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Are you into football?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "What is your favourite soccer player?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Who do you are?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Who won the premier league?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -93,7 +37,63 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
+    "sentence" : "Who do you are?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Are you into football?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Do you watch ESPN, BBC sports or Euro sport",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Who won the premier league?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "do you like football",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "What sport do you like?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what is your favourite soccer team",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
     "sentence" : "do you watch NHL, NBA or World Series?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "What is your favourite soccer player?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,

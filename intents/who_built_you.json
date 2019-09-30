@@ -3,7 +3,28 @@
   "type" : "NLPIntent",
   "intentParameters" : [ ],
   "exampleData" : [ {
-    "sentence" : "Who is your master",
+    "sentence" : "who developed you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what platform are you built on",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "What were you developed on?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what platform are you based on",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -11,6 +32,13 @@
     "exampleEntities" : [ ]
   }, {
     "sentence" : "what platform were you developed on?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Who built you?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -31,6 +59,13 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
+    "sentence" : "what technology were you built with",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
     "sentence" : "Who is the developer?",
     "translated" : null,
     "detectedLanguage" : null,
@@ -38,35 +73,14 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
+    "sentence" : "Who is your master",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
     "sentence" : "What were you developed on?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Who built you?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "what platform are you built on",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "what platform are you based on",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "what technology were you built with",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -81,20 +95,6 @@
     "exampleEntities" : [ ]
   }, {
     "sentence" : "who developed you?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "who developed you",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "What were you developed on?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,

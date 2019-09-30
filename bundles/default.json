@@ -1,29 +1,281 @@
 {
   "languageTag" : "default",
   "keys" : {
+    "system.intent.dialog_hug.conversationName" : {
+      "message" : "dialog_hug"
+    },
+    "system.intent.agent_residence.conversationName" : {
+      "message" : "agent_residence"
+    },
+    "system.intent.dialog_i_do_not_care.conversationName" : {
+      "message" : "dialog_i_do_not_care"
+    },
+    "system.intent.agent_busy.conversationName" : {
+      "message" : "agent_busy"
+    },
+    "system.intent.appraisal_bad.conversationName" : {
+      "message" : "appraisal_bad"
+    },
+    "system.intent.close_conversation.conversationName" : {
+      "message" : "Close Conversation"
+    },
     "system.intent.date_and_time.conversationName" : {
       "message" : "Date and Time"
     },
-    "system.intent.question_prelude.conversationName" : {
-      "message" : "Intent1"
+    "system.intent.agent_my_friend.conversationName" : {
+      "message" : "agent_my_friend"
+    },
+    "system.intent.agent_there.conversationName" : {
+      "message" : "agent_there"
+    },
+    "system.intent.user_good.conversationName" : {
+      "message" : "user_good"
     },
     "system.intent.thanks_response.conversationName" : {
       "message" : "thanks_response"
     },
+    "system.intent.greetings_goodmorning.conversationName" : {
+      "message" : "greetings_goodmorning"
+    },
+    "system.intent.agent_occupation.conversationName" : {
+      "message" : "agent_occupation"
+    },
+    "system.intent.appraisal_thank_you.conversationName" : {
+      "message" : "appraisal_thank_you"
+    },
+    "system.intent.user_here.conversationName" : {
+      "message" : "user_here"
+    },
+    "system.intent.agent_real.conversationName" : {
+      "message" : "agent_real"
+    },
+    "system.intent.agent_boring.conversationName" : {
+      "message" : "agent_boring"
+    },
+    "system.intent.agent_crazy.conversationName" : {
+      "message" : "agent_crazy"
+    },
+    "system.intent.agent_birth_date.conversationName" : {
+      "message" : "agent_birth_date"
+    },
+    "system.intent.user_sad.conversationName" : {
+      "message" : "user_sad"
+    },
+    "system.intent.user_angry.conversationName" : {
+      "message" : "user_angry"
+    },
+    "system.intent.agent_age.conversationName" : {
+      "message" : "agent_age"
+    },
+    "system.intent.user_lonely.conversationName" : {
+      "message" : "user_lonely"
+    },
+    "system.intent.dialog_sorry.conversationName" : {
+      "message" : "dialog_sorry"
+    },
+    "system.intent.user_busy.conversationName" : {
+      "message" : "user_busy"
+    },
+    "system.intent.user_excited.conversationName" : {
+      "message" : "user_excited"
+    },
+    "system.intent.greetings_nice_to_meet_you.conversationName" : {
+      "message" : "greetings_nice_to_meet_you"
+    },
+    "system.intent.agent_good.conversationName" : {
+      "message" : "agent_good"
+    },
+    "system.intent.greetings_hello.conversationName" : {
+      "message" : "greetings_hello"
+    },
+    "system.intent.dialog_hold_on.conversationName" : {
+      "message" : "dialog_hold_on"
+    },
+    "system.intent.agent_clever.conversationName" : {
+      "message" : "agent_clever"
+    },
+    "system.intent.user_loves_agent.conversationName" : {
+      "message" : "user_loves_agent"
+    },
+    "system.intent.user_can_not_sleep.conversationName" : {
+      "message" : "user_can_not_sleep"
+    },
+    "system.intent.user_testing_agent.conversationName" : {
+      "message" : "user_testing_agent"
+    },
+    "system.intent.emotions_ha_ha.conversationName" : {
+      "message" : "emotions_ha_ha"
+    },
+    "system.intent.user_bored.conversationName" : {
+      "message" : "user_bored"
+    },
+    "system.intent.agent_hungry.conversationName" : {
+      "message" : "agent_hungry"
+    },
+    "system.intent.appraisal_no_problem.conversationName" : {
+      "message" : "appraisal_no_problem"
+    },
+    "system.intent.dialog_wrong.conversationName" : {
+      "message" : "dialog_wrong"
+    },
+    "system.intent.confirmation_no.conversationName" : {
+      "message" : "confirmation_no"
+    },
     "system.intent.answer_not_helping.conversationName" : {
       "message" : "answerNotHelping"
+    },
+    "system.intent.agent_ready.conversationName" : {
+      "message" : "agent_ready"
+    },
+    "system.intent.appraisal_welcome.conversationName" : {
+      "message" : "appraisal_welcome"
+    },
+    "system.intent.agent_chatbot.conversationName" : {
+      "message" : "agent_chatbot"
+    },
+    "system.intent.appraisal_good.conversationName" : {
+      "message" : "appraisal_good"
+    },
+    "system.intent.user_likes_agent.conversationName" : {
+      "message" : "user_likes_agent"
+    },
+    "system.intent.agent_right.conversationName" : {
+      "message" : "agent_right"
+    },
+    "system.intent.greetings_goodevening.conversationName" : {
+      "message" : "greetings_goodevening"
+    },
+    "system.intent.greetings_nice_to_see_you.conversationName" : {
+      "message" : "greetings_nice_to_see_you"
+    },
+    "system.intent.user_tired.conversationName" : {
+      "message" : "user_tired"
+    },
+    "system.intent.user_going_to_bed.conversationName" : {
+      "message" : "user_going_to_bed"
+    },
+    "system.intent.user_does_not_want_to_talk.conversationName" : {
+      "message" : "user_does_not_want_to_talk"
+    },
+    "system.intent.question_prelude.conversationName" : {
+      "message" : "Intent1"
+    },
+    "system.intent.greetings_how_are_you.conversationName" : {
+      "message" : "greetings_how_are_you"
     },
     "system.intent.who_built_you.conversationName" : {
       "message" : "WhoBuilt"
     },
-    "system.intent.swear_chat.conversationName" : {
-      "message" : "swear_chat"
+    "system.intent.user_needs_advice.conversationName" : {
+      "message" : "user_needs_advice"
+    },
+    "system.intent.confirmation_yes.conversationName" : {
+      "message" : "confirmation_yes"
+    },
+    "system.intent.agent_boss.conversationName" : {
+      "message" : "agent_boss"
+    },
+    "system.intent.agent_marry_user.conversationName" : {
+      "message" : "agent_marry_user"
+    },
+    "system.intent.appraisal_well_done.conversationName" : {
+      "message" : "appraisal_well_done"
+    },
+    "system.intent.user_wants_to_see_agent_again.conversationName" : {
+      "message" : "user_wants_to_see_agent_again"
+    },
+    "system.intent.greetings_bye.conversationName" : {
+      "message" : "greetings_bye"
+    },
+    "system.intent.agent_annoying.conversationName" : {
+      "message" : "agent_annoying"
+    },
+    "system.intent.user_happy.conversationName" : {
+      "message" : "user_happy"
+    },
+    "system.intent.confirmation_cancel.conversationName" : {
+      "message" : "confirmation_cancel"
+    },
+    "system.intent.user_misses_agent.conversationName" : {
+      "message" : "user_misses_agent"
+    },
+    "system.intent.agent_fired.conversationName" : {
+      "message" : "agent_fired"
     },
     "system.intent.answer_is_helping.conversationName" : {
       "message" : "answerHelping"
     },
-    "system.intent.close_conversation.conversationName" : {
-      "message" : "Close Conversation"
+    "system.intent.user_back.conversationName" : {
+      "message" : "user_back"
+    },
+    "system.intent.agent_bad.conversationName" : {
+      "message" : "agent_bad"
+    },
+    "system.intent.agent_beautiful.conversationName" : {
+      "message" : "agent_beautiful"
+    },
+    "system.intent.agent_answer_my_question.conversationName" : {
+      "message" : "agent_answer_my_question"
+    },
+    "system.intent.user_has_birthday.conversationName" : {
+      "message" : "user_has_birthday"
+    },
+    "system.intent.agent_origin.conversationName" : {
+      "message" : "agent_origin"
+    },
+    "system.intent.swear_chat.conversationName" : {
+      "message" : "swear_chat"
+    },
+    "system.intent.user_will_be_back.conversationName" : {
+      "message" : "user_will_be_back"
+    },
+    "system.intent.user_sleepy.conversationName" : {
+      "message" : "user_sleepy"
+    },
+    "system.intent.greetings_whatsup.conversationName" : {
+      "message" : "greetings_whatsup"
+    },
+    "system.intent.agent_funny.conversationName" : {
+      "message" : "agent_funny"
+    },
+    "system.intent.user_joking.conversationName" : {
+      "message" : "user_joking"
+    },
+    "system.intent.emotions_wow.conversationName" : {
+      "message" : "emotions_wow"
+    },
+    "system.intent.greetings_goodnight.conversationName" : {
+      "message" : "greetings_goodnight"
+    },
+    "system.intent.agent_be_clever.conversationName" : {
+      "message" : "agent_be_clever"
+    },
+    "system.intent.user_looks_like.conversationName" : {
+      "message" : "user_looks_like"
+    },
+    "system.intent.agent_sure.conversationName" : {
+      "message" : "agent_sure"
+    },
+    "system.intent.agent_happy.conversationName" : {
+      "message" : "agent_happy"
+    },
+    "system.intent.agent_acquaintance.conversationName" : {
+      "message" : "agent_acquaintance"
+    },
+    "system.intent.user_waits.conversationName" : {
+      "message" : "user_waits"
+    },
+    "system.intent.greetings_nice_to_talk_to_you.conversationName" : {
+      "message" : "greetings_nice_to_talk_to_you"
+    },
+    "system.intent.user_wants_to_talk.conversationName" : {
+      "message" : "user_wants_to_talk"
+    },
+    "system.intent.dialog_what_do_you_mean.conversationName" : {
+      "message" : "dialog_what_do_you_mean"
+    },
+    "system.intent.agent_talk_to_me.conversationName" : {
+      "message" : "agent_talk_to_me"
     }
   }
 }

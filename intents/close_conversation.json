@@ -10,42 +10,7 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "goodbye",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Reset conversation",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "cheerio",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "that's all",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "nothing else",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "thats all",
+    "sentence" : "ok I'm finished",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -59,7 +24,7 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "bye",
+    "sentence" : "Reset conversation",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -73,7 +38,35 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
+    "sentence" : "thats all",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "goodbye",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "nothing else",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
     "sentence" : "End the conversation",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "bye bye",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -87,14 +80,21 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "ok I'm finished",
+    "sentence" : "that's all",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "bye bye",
+    "sentence" : "cheerio",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "bye",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,

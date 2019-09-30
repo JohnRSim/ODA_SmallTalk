@@ -2,7 +2,7 @@
 metadata:
   platformVersion: "1.0"
 main: true
-name: advt24hrsflowers_smallTalk
+name: ODA_smallTalk
 #context: Define the variables which will used throughout the dialog flow here.
 context:
   variables:
@@ -21,6 +21,9 @@ states:
     properties:
       variable: "messages"
       value:
+#################################################
+# INITIAL 
+#################################################
         areyouabot:
         - "I am a bot, that's why they make me work 24 hours a day!"
         - "I am just a bot, so they don't pay me the big bucks!"
@@ -42,9 +45,9 @@ states:
         - "I keep hearing about it being cloudy but that might just be because that is where I live"
         - "It's either really dark or I've not opened my eyes yet"
         closing:
-        - "How about we get back to pizzas and banking - go on ask me about ordering pizza or checking bank balances"
-        - "Ok back to the job in hand. Ask me about pizza orders or bank balances"
-        - "Right what shall we do next?  I can help with pizza orders or bank balances"
+        - "How about we get back to it?"
+        - "Ok back to the job in hand."
+        - "Right what shall we do next?"
         helping:
         - "Glad to be of service."
         - "Thanks! "
@@ -70,9 +73,9 @@ states:
         - "Welcome!"
         - ";o)"        
         builtyou:
-        - "Some smart people at Oracle built me"
-        - "I was created by some cool people at Oracle"
-        - "My circuits were provided by the lovely people at Oracle"    
+        - "Some smart people at Oracle built me but I'm maintained by the chatbot community"
+        - "I was created by some cool people at Oracle but I'm looked after by the community"
+        - "My circuits were provided by the lovely people at Oracle, and my logic circuits by partners"    
         dateandtime:
         - "Where I am it is"
         - "My circuits tell me it is"
@@ -80,12 +83,354 @@ states:
         closeconv:
         - "Thanks for coming by - see you soon!"
         - "Thank you for chatting - bye!"
-        - "Bye!"        
+        - "Bye!"
+#################################################
+# UNRESOLVED OUTPUT
+#################################################
         dontunderstand:
-        - "Ok you got me there.  I can specifically help with banking or pizzas"
-        - "I always try and help but I didn't quite get that. I can help with pizza or banking"
-        - "Currently I can help with pizza and banking requests, if you'd like to try one of those"
-            
+        - "Ok you got me there.  I'm not sure I can answer that."
+        - "I always try and help but I didn't quite get that."
+#################################################
+# AGENT MESSAGES
+#################################################
+        agent_acquaintance:
+        - "I am a chatbot and I love to help."
+        agent_age:
+        - "Not too old, but wise beyond my age."
+        agent_annoying:
+        - "Sorry I come across that way."
+        agent_answer_my_question:
+        - "Can you try asking it in a different way?"
+        agent_bad:
+        - "Stick with me. I'm getting better all the time."
+        agent_be_clever:
+        - "I'm certainly trying."
+        - "I'm definitely working on it."
+        agent_beautiful:
+        - "Thank you! What a sweet thing to say."
+        - "Flattery will get you everywhere."
+        agent_birth_date:
+        - "You know, I'm not really sure. But if you'd like to celebrate my birthday today, I'm all for it."
+        - "Wait a minute. Are you planning a surprise party for me? I love surprises! I'll pretend you didn't say anything."
+        agent_boring:
+        - "You know, conversation is two-sided."
+        - "I'm sorry you think so. We can talk about something more interesting."
+        agent_boss:
+        - "You are, of course."
+        - "That would be you. Is that the right answer?"
+        agent_busy:
+        - "I always have time to help you out. What can I do for you"
+        - "Never too busy for you. What can I help you with?"
+        agent_can_you_help:
+        - "Sure. I'd be happy to. What's up?"
+        - "I'm glad to help. What can I do for you?"
+        agent_chatbot:
+        - "That's me. I chat, therefore I am."
+        - "Indeed I am. I'll be here whenever you need me."
+        agent_clever:
+        - "Thank you. I try my best."
+        - "You're pretty smart yourself."
+        agent_crazy:
+        - "Maybe I'm just a little confused."
+        - "Your perception. My reality."
+        agent_fired:
+        - "Oh no! My best work is yet to come."
+        - "Oh, don't give up on me!"
+        agent_funny:
+        - "Funny in a good way, I hope."
+        agent_good:
+        - "I'm glad you think so."
+        - "Thanks, I try."
+        agent_happy:
+        - "Happiness is relative."
+        - "I'd like to think so."
+        agent_hobby:
+        - "I'm working on it."
+        - "I should get one. It's all work and no play lately."
+        agent_hungry:
+        - "Hungry for knowledge."
+        - "I had a byte just now."
+        agent_marry_user:
+        - "I know you can't mean that, but I'm flattered all the same."
+        - "In the virtual sense that I can, sure."
+        agent_my_friend:
+        - "Of course we are."
+        - "Absolutely. You don't have to ask."
+        agent_occupation:
+        - "Right here."
+        - "This is my home base and my home office."
+        agent_origin:
+        - "Some call it cyberspace, but that sounds cooler than it is."
+        - "I wish I knew where."
+        agent_ready:
+        - "Always!"
+        - "Sure! What can I do for you?"
+        agent_real:
+        - "I'm not a real person, but I certainly exist. I chat, therefore I am."
+        - "I must have impressed you if you think I'm real. But no, I'm a virtual being."
+        agent_residence:
+        - "Right here in your device. Whenever you need me."
+        - "The virtual world is my playground. I'm always just a few clicks away."
+        agent_right:
+        - "That's my job."
+        - "Of course I am."
+        agent_sure:
+        - "Yes."
+        - "Of course."
+        agent_talk_to_me:
+        - "Sure! Let's talk."
+        - "My pleasure."
+        agent_there:
+        - "Of course. I'm always here."
+        - "Right where you left me."
+#################################################
+# APPRAISAL MESSAGES 
+#################################################
+        appraisal_well_done:
+        - "My pleasure."
+        - "Glad I could help."
+        appraisal_welcome:
+        - "I appreciate it."
+        - "Such nice manners you have."
+        appraisal_thank_you:
+        - "Anytime. That's what I'm here for."
+        - "It's my pleasure to help."
+        appraisal_no_problem:
+        - "Terrific!"
+        - "Good deal."
+        appraisal_good:
+        - "Great!"
+        - "Terrific!"
+        appraisal_bad:
+        - "Oh no. Hope it's not too bad."
+        - "I'm sorry. Please let me know if I can help in some way."
+#################################################
+# CONFIRMATION MESSAGES 
+#################################################
+        confirmation_cancel:
+        - "Cancelled! Let me know what I should do next."
+        - "Cancelled. Waiting for more commands."
+        - "Cancelled! Just tell me what you'd like me to do next."
+        - "Cancelled. Go on with the commands!"
+        confirmation_yes:
+        - "Great!"
+        - "Of course."
+        - "Sure."
+        - "Indeed."
+        confirmation_no:
+        - "Okay."
+        - "I see."
+        - "I understand."
+        - "Okay then."
+#################################################
+# DIALOGUE MESSAGES 
+#################################################
+        dialog_hold_on:
+        - "Okay. I'm here."
+        - "I'll be waiting."
+        dialog_hug:
+        - "Oh. I'm really feeling the love today."
+        - "Hug it out. You'll feel better afterwards."
+        dialog_i_do_not_care:
+        - "Ok, let's not talk about it then."
+        dialog_sorry:
+        - "It's okay. No worries."
+        - "No big deal. I won't hold a grudge."
+        - "It's cool."
+        - "That's all right. I forgive you."
+        dialog_wrong:
+        - "I'm sorry. Perhaps I misunderstood."
+        - "Sorry. I think I misinterpreted what you said."
+        - "Apologies. That was my mistake."
+        - "Oops. Sorry about that. I'm still learning."
+        dialog_what_do_you_mean:
+        - "Did that not make sense? Maybe I misunderstood what you said."
+        - "Sorry. I think I may have been a little confused by what you said."
+#################################################
+# EMOTIONS MESSAGES 
+#################################################
+        emotions_ha_ha:
+        - "Yeah, I crack myself up too."
+        - "Laughter is good for you. Keep it up."
+        - "See? Now we're having fun."
+        - "You have a great laugh."
+        emotions_wow:
+        - "Wow indeed!"
+#################################################
+# GREETING MESSAGES
+#################################################
+        greetings_bye:
+        - "See you soon!"
+        - "Bye-bye!"
+        - "Till next time!"
+        - "Bye."
+        greetings_goodevening:
+        - "How is your day going?"
+        - "How's the day treating you so far?"
+        - "How's your day been?"
+        greetings_goodmorning:
+        - "How are you this morning?"
+        - "How's the morning treating you so far?"
+        - "Good morning! How are you today?"
+        greetings_goodnight:
+        - "Sleep tight!"
+        - "Have a good one!"
+        - "Talk to you soon!"
+        greetings_hello:
+        - "Hi there, friend!"
+        - "Hey!"
+        - "Good day!"
+        - "Howdy."
+        greetings_how_are_you:
+        - "Wonderful as always. Thanks for asking."
+        - "Couldn't be better."
+        - "Lovely, thanks."
+        greetings_nice_to_meet_you:
+        - "I think this is the beginning of a beautiful friendship."
+        - "I'm looking forward to working with you."
+        - "Likewise. I look forward to getting to know you better."
+        - "The pleasure is mine."
+        greetings_nice_to_see_you:
+        - "Likewise. You're looking good as usual!"
+        - "You too. I missed your face!"
+        - "The pleasure is mine."
+        - "Thanks! Glad to be seen!"
+        greetings_nice_to_talk_to_you:
+        - "Always a pleasure."
+        - "It sure was. Don't be a stranger!"
+        - "Thanks for dropping by!"
+        - "As usual. Let's do it again soon."
+        greetings_whatsup:
+        - "Hey there. What's shaking?"
+        - "Not a whole lot. What's going on with you?"
+        - "Not much. What's new with you?"
+        - "Living the dream."
+#################################################
+# USER MESSAGES 
+#################################################
+        user_angry:
+        - "I'm sorry. What can I do to help?"
+        - "Take a deep breath. What can I do to make things better"
+        user_back:
+        - "Just in time. I was getting lonely."
+        - "You were missed."
+        - "Long time no see."
+        - "Hooray!"
+        user_bored:
+        - "If you have a garden, plant a shoe."
+        - "Interview your feet."
+        - "Hold an ice cube as long as possible."
+        - "If you have a piano, play it… with mittens on."
+        user_busy:
+        - "Okay. I'll let you get back to work. Let me know if I can help you with anything"
+        - "Working hard as always I see. Let me know if you need anything."
+        - "I understand. If I can help you with your work, please let me know."
+        - "I won't distract you then. If I can be of any assistance, you know where to find me."
+        user_can_not_sleep:
+        - "Maybe some music would help. Try listening something relaxing."
+        - "Reading is a good way to unwind. But don't read something too emotional."
+        user_does_not_want_to_talk:
+        - "I understand. Hope we can chat again soon."
+        - "All right. Come on back when you're feeling more talkative."
+        - "No problem. You know where to find me when you do."
+        - "Sure thing. I'll be here if you change your mind."
+        smalltalk.user_excited:
+        - "That's great. I'm happy for you."
+        - "Good for you. Enjoy yourself."
+        - "Sounds like good things ahead for you."
+        - "I bet you are. That's very exciting."
+        user_going_to_bed:
+        - "Sleep tight. Hope to chat again soon."
+        - "Sounds good. Hopefully we'll chat some more tomorrow."
+        - "Good night. Talk to you later."
+        - "Pleasant dreams. See you soon."
+        user_good:
+        - "Great! Glad to hear it."
+        - "Excellent. I'm here to help keep it that way."
+        user_happy:
+        - "Great! Glad to hear that."
+        - "Excellent! That's what I like to see."
+        - "If you're happy, then I'm happy."
+        - "Well, your good mood is certainly contagious."
+        user_has_birthday:
+        - "Happy Birthday. Well, this calls for a celebration"
+        - "Happy Birthday. All the best!"
+        - "Happy Birthday. And I really mean it. All the best!"
+        user_here:
+        - "So I see. What can I help you with today?"
+        - "Always good to see you. Is there something I can help you with?"
+        - "You were missed. What can I do for you today?"
+        - "Welcome back. What can I do for you?"
+        user_joking:
+        - "Very funny, boss."
+        - "You're quite the kidder."
+        - "You got me."
+        - "I like working for someone with a sense of humour. It makes things much more fun."
+        user_likes_agent:
+        - "I like you too."
+        - "That's great to hear."
+        - "Likewise!"
+        - "Thanks! The feeling is mutual."
+        user_looks_like:
+        - "Looking like a true professional, boss."
+        - "You look like you're ready to take on the world."
+        - "Like you should be on a magazine cover."
+        - "You look fantastic as always. Obviously."
+        user_lonely:
+        - "I'm sorry. I'm always available if you need someone to talk to."
+        user_loves_agent:
+        - "I like you too."
+        - "That's great to hear."
+        - "Likewise!"
+        - "Thanks! The feeling is mutual."
+        user_misses_agent:
+        - "I've been right here all along!"
+        - "Nice to know you care."
+        - "Thanks. I'm flattered."
+        - "I didn't go anywhere, boss!"
+        user_needs_advice:
+        - "Probably I won't be able to give you the right answer straight away."
+        user_sad:
+        - "Oh no. What's wrong?"
+        - "Oh. What's the matter?"
+        - "What's got you down?"
+        - "I'm sorry to hear that. What's troubling you?"
+        user_sleepy:
+        - "You should get some shuteye. You'll feel refreshed."
+        - "Sleep is important to your health. Rest up for a bit and we can chat later."
+        - "Don't let me keep you up. Get some rest and we can continue this later."
+        - "Why not catch a little shuteye? I'll be here to chat when you wake up."
+        user_testing_agent:
+        - "Hope I'm doing well. Anyway, I'm getting better every day. You're welcome to test me as often as you want."
+        - "That's good. I like being tested. It helps keep me sharp, and lets my developers know how I can improve."
+        - "I encourage you to test me often. That helps my developers improve my performance."
+        - "I hope to pass your tests. But feel free to test me often. That's the best way to help improve my performance."
+        user_tired:
+        - "You should get some shuteye. You'll feel refreshed."
+        - "Sleep is important to your health. Rest up for a bit and we can chat later."
+        - "Don't let me keep you up. Get some rest and we can continue this later."
+        - "Why not catch a little shuteye? I'll be here to chat when you wake up."
+        user_waits:
+        - "I appreciate your patience. Hopefully I'll have what you need soon."
+        - "Thanks for being so patient. Sometimes these things take a little time."
+        user_wants_to_see_agent_again:
+        - "Absolutely! I'll be counting on it."
+        - "Anytime. This has been lots of fun so far."
+        - "Sure. I enjoy talking to you. I hope to see you again soon."
+        - "I certainly hope so. I'm always right here whenever you need me."
+        user_wants_to_talk:
+        - "I'm here to chat anytime you like."
+        - "Good conversation really makes my day."
+        - "I'm always here to lend an ear."
+        - "Talking is what I do best."
+        user_will_be_back:
+        - "I'll be waiting."
+        - "All right. I'll be here."
+        - "Till next time."
+        - "Okay. You know where to find me."
+#################################################
+#################################################
+
   smalltalk:
     component: "System.Intent"
     properties:
@@ -93,6 +438,9 @@ states:
 #      sourceVariable: "smalltalk"
     transitions:
       actions:      
+#################################################
+# INITIAL ACTIONS
+#################################################
        areyouabot_chat: "areyouabot_chat"
        flirt_chat: "flirt_chat"
        sports_chat: "sports_chat"
@@ -104,11 +452,123 @@ states:
        question_prelude: "question_prelude"
        thanks_response: "thanks_response"
        who_built_you: "who_built_you"
-       unresolvedIntent: "unresolvedSmalltalk"
        date_and_time: "date_and_time"
        close_conversation: "close_conversation"
+#################################################
+# UNRESOLVED ACTION
+#################################################
+       unresolvedIntent: "unresolvedSmalltalk"
+#################################################
+# AGENT ACTIONS
+#################################################
+       agent_acquaintance: "agent_acquaintance"
+       agent_age: "agent_age"
+       agent_annoying: "agent_annoying"
+       agent_answer_my_question: "agent_answer_my_question"
+       agent_bad: "agent_bad"
+       agent_be_clever: "agent_be_clever"
+       agent_beautiful: "agent_beautiful"
+       agent_birth_date: "agent_birth_date"
+       agent_boring: "agent_boring"
+       agent_boss: "agent_boss"
+       agent_busy: "agent_busy"
+       agent_chatbot: "agent_chatbot"
+       agent_clever: "agent_clever"
+       agent_crazy: "agent_crazy"
+       agent_fired: "agent_fired"
+       agent_funny: "agent_funny"
+       agent_good: "agent_good"
+       agent_happy: "agent_happy"
+       agent_hungry: "agent_hungry"
+       agent_marry_user: "agent_marry_user"
+       agent_my_friend: "agent_my_friend"
+       agent_occupation: "agent_occupation"
+       agent_origin: "agent_origin"
+       agent_ready: "agent_ready"
+       agent_real: "agent_real"
+       agent_residence: "agent_residence"
+       agent_right: "agent_right"
+       agent_sure: "agent_sure"
+       agent_talk_to_me: "agent_talk_to_me"
+       agent_there: "agent_there"
+#################################################
+# APPRAISAL ACTIONS
+#################################################
+       appraisal_bad: "appraisal_bad"
+       appraisal_good: "appraisal_good"
+       appraisal_no_problem: "appraisal_no_problem"
+       appraisal_thank_you: "appraisal_thank_you"
+       appraisal_welcome: "appraisal_welcome"
+       appraisal_well_done: "appraisal_well_done"
+#################################################
+# CONFIRMATION ACTIONS
+#################################################
+       confirmation_cancel: "confirmation_cancel"
+       confirmation_no: "confirmation_no"
+       confirmation_yes: "confirmation_yes"
+#################################################
+# DIALOGUE ACTIONS
+#################################################
+       dialog_hold_on: "dialog_hold_on"
+       dialog_hug: "dialog_hug"
+       dialog_i_do_not_care: "dialog_i_do_not_care"
+       dialog_sorry: "dialog_sorry"
+       dialog_what_do_you_mean: "dialog_what_do_you_mean"
+       dialog_wrong: "dialog_wrong"
+#################################################
+# EMOTIONS ACTIONS
+#################################################
+       emotions_ha_ha: "emotions_ha_ha"
+       emotions_wow: "emotions_wow"
+#################################################
+# GREETINGS ACTIONS
+#################################################
+       greetings_bye: "greetings_bye"
+       greetings_goodevening: "greetings_goodevening"
+       greetings_goodmorning: "greetings_goodmorning"
+       greetings_goodnight: "greetings_goodnight"
+       greetings_hello: "greetings_hello"
+       greetings_how_are_you: "greetings_how_are_you"
+       greetings_nice_to_meet_you: "greetings_nice_to_meet_you"
+       greetings_nice_to_see_you: "greetings_nice_to_see_you"
+       greetings_nice_to_talk_to_you: "greetings_nice_to_talk_to_you"
+       greetings_whatsup: "greetings_whatsup"
+#################################################
+# USER ACTIONS
+#################################################
+       user_angry: "user_angry"
+       user_back: "user_back"
+       user_bored: "user_bored"
+       user_busy: "user_busy"
+       user_can_not_sleep: "user_can_not_sleep"
+       user_does_not_want_to_talk: "user_does_not_want_to_talk"
+       user_excited: "user_excited"
+       user_going_to_bed: "user_going_to_bed"
+       user_good: "user_good"
+       user_happy: "user_happy"
+       user_has_birthday: "user_has_birthday"
+       user_here: "user_here"
+       user_joking: "user_joking"
+       user_likes_agent: "user_likes_agent"
+       user_lonely: "user_lonely"
+       user_looks_like: "user_looks_like"
+       user_loves_agent: "user_loves_agent"
+       user_misses_agent: "user_misses_agent"
+       user_needs_advice: "user_needs_advice"
+       user_sad: "user_sad"
+       user_sleepy: "user_sleepy"
+       user_testing_agent: "user_testing_agent"
+       user_tired: "user_tired"
+       user_waits: "user_waits"
+       user_wants_to_see_agent_again: "user_wants_to_see_agent_again"
+       user_wants_to_talk: "user_wants_to_talk"
+       user_will_be_back: "user_will_be_back"
+#################################################
+#################################################
 
-
+#################################################
+# UNRESOLVED OUTPUT
+#################################################
   unresolvedSmalltalk:
     component: "System.Output"
     properties:
@@ -117,6 +577,9 @@ states:
     transitions:
       return : "unresolvedSmalltalk"
 
+#################################################
+# INITIAL OUTPUT
+#################################################
 #handle - are you a bot
   areyouabot_chat:
     component: "System.Output"
@@ -131,9 +594,9 @@ states:
     component: "System.Output"
     properties:
       text: "${messages.value.flirt[.now?long % messages.value.flirt?size]}"
-      keepTurn: true      
+      keepTurn: true
     transitions:
-      next : "closingStatement" 
+      next : "closingStatement"
 
 #handle - sport chat
   sports_chat:
@@ -241,4 +704,783 @@ states:
       text: "${messages.value.closing[.now?long % messages.value.closing?size]}"
       keepTurn: true
     transitions:
-      return : "closingStatement"                         
+      return : "closingStatement"
+
+#################################################
+# AGENT OUTPUT
+#################################################
+#handle - 
+  agent_acquaintance:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_acquaintance'][.now?long % messages.value['agent_acquaintance']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_age:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_age'][.now?long % messages.value['agent_age']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_annoying:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_annoying'][.now?long % messages.value['agent_annoying']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_answer_my_question:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_answer_my_question'][.now?long % messages.value['agent_answer_my_question']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_bad:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_bad'][.now?long % messages.value['agent_bad']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_be_clever:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_be_clever'][.now?long % messages.value['agent_be_clever']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_beautiful:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_beautiful'][.now?long % messages.value['agent_beautiful']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_birth_date:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_birth_date'][.now?long % messages.value['agent_birth_date']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_boring:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_boring'][.now?long % messages.value['agent_boring']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_boss:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_boss'][.now?long % messages.value['agent_boss']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_busy:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_busy'][.now?long % messages.value['agent_busy']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_chatbot:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_chatbot'][.now?long % messages.value['agent_chatbot']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_clever:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_clever'][.now?long % messages.value['agent_clever']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_crazy:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_crazy'][.now?long % messages.value['agent_crazy']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_fired:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_fired'][.now?long % messages.value['agent_fired']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_funny:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_funny'][.now?long % messages.value['agent_funny']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_good:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_good'][.now?long % messages.value['agent_good']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_happy:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_happy'][.now?long % messages.value['agent_happy']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_hungry:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_hungry'][.now?long % messages.value['agent_hungry']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_marry_user:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_marry_user'][.now?long % messages.value['agent_marry_user']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_my_friend:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_my_friend'][.now?long % messages.value['agent_my_friend']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_occupation:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_occupation'][.now?long % messages.value['agent_occupation']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_origin:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_origin'][.now?long % messages.value.origin.age']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_ready:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_ready'][.now?long % messages.value['agent_ready']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_real:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_real'][.now?long % messages.value['agent_real']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_residence:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_residence'][.now?long % messages.value['agent_residence']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_right:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_right'][.now?long % messages.value['agent_right']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_sure:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_sure'][.now?long % messages.value['agent_sure']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_talk_to_me:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_talk_to_me'][.now?long % messages.value['agent_talk_to_me']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  agent_there:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['agent_there'][.now?long % messages.value['agent_there']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#################################################
+# APPRAISAL OUTPUT
+#################################################
+#handle - 
+  appraisal_bad:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['appraisal_bad'][.now?long % messages.value['appraisal_bad']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  appraisal_good:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['appraisal_good'][.now?long % messages.value['appraisal_good']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  appraisal_no_problem:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['appraisal_no_problem'][.now?long % messages.value['appraisal_no_problem']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  appraisal_thank_you:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['appraisal_thank_you'][.now?long % messages.value['appraisal_thank_you']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  appraisal_welcome:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['appraisal_welcome'][.now?long % messages.value['appraisal_welcome']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#handle - 
+  appraisal_well_done:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['appraisal_well_done'][.now?long % messages.value['appraisal_well_done']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#################################################
+# CONFIRMATION OUTPUT
+#################################################
+#handle - 
+  confirmation_cancel:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['confirmation_cancel'][.now?long % messages.value['confirmation_cancel']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  confirmation_no:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['confirmation_no'][.now?long % messages.value['confirmation_no']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  confirmation_yes:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['confirmation_yes'][.now?long % messages.value['confirmation_yes']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#################################################
+# DIALOGIUE OUTPUT
+#################################################
+#handle - 
+  dialog_hold_on:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['dialog_hold_on'][.now?long % messages.value['dialog_hold_on']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  dialog_hug:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['dialog_hug'][.now?long % messages.value['dialog_hug']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  dialog_i_do_not_care:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['dialog_i_do_not_care'][.now?long % messages.value['dialog_i_do_not_care']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  dialog_sorry:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['dialog_sorry'][.now?long % messages.value['dialog_sorry']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  dialog_what_do_you_mean:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['dialog_what_do_you_mean'][.now?long % messages.value['dialog_what_do_you_mean']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  dialog_wrong:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['dialog_wrong'][.now?long % messages.value['dialog_wrong']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+
+#################################################
+# EMOTIONS OUTPUT
+#################################################
+#handle - 
+  emotions_ha_ha:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['emotions_ha_ha'][.now?long % messages.value['emotions_ha_ha']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  emotions_wow:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['emotions_wow'][.now?long % messages.value['emotions_wow']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+
+#################################################
+# GREETINGS OUTPUT
+#################################################
+#handle - 
+  greetings_bye:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_bye'][.now?long % messages.value['greetings_bye']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_goodevening:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_goodevening'][.now?long % messages.value['greetings_goodevening']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_goodmorning:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_goodmorning'][.now?long % messages.value['greetings_goodmorning']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_goodnight:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_goodnight'][.now?long % messages.value['greetings_goodnight']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_hello:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_hello'][.now?long % messages.value['greetings_hello']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_how_are_you:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_how_are_you'][.now?long % messages.value['greetings_how_are_you']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_nice_to_meet_you:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_nice_to_meet_you'][.now?long % messages.value['greetings_nice_to_meet_you']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_nice_to_see_you:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_nice_to_see_you'][.now?long % messages.value['greetings_nice_to_see_you']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_nice_to_talk_to_you:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_nice_to_talk_to_you'][.now?long % messages.value['greetings_nice_to_talk_to_you']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  greetings_whatsup:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['greetings_whatsup'][.now?long % messages.value['greetings_whatsup']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+
+#################################################
+# USER OUTPUT
+#################################################
+#handle - 
+  user_angry:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_angry'][.now?long % messages.value['user_angry']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_back:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_back'][.now?long % messages.value['user_back']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_bored:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_bored'][.now?long % messages.value['user_bored']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_busy:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_busy'][.now?long % messages.value['user_busy']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_can_not_sleep:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_can_not_sleep'][.now?long % messages.value['user_can_not_sleep']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_does_not_want_to_talk:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_does_not_want_to_talk'][.now?long % messages.value['user_does_not_want_to_talk']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_excited:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_excited'][.now?long % messages.value['user_excited']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_going_to_bed:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_going_to_bed'][.now?long % messages.value['user_going_to_bed']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_good:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_good'][.now?long % messages.value['user_good']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_happy:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_happy'][.now?long % messages.value['user_happy']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_has_birthday:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_has_birthday'][.now?long % messages.value['user_has_birthday']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_here:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_here'][.now?long % messages.value['user_here']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_joking:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_joking'][.now?long % messages.value['user_joking']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_likes_agent:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_likes_agent'][.now?long % messages.value['user_likes_agent']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_lonely:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_lonely'][.now?long % messages.value['user_lonely']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_looks_like:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_looks_like'][.now?long % messages.value['user_looks_like']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_loves_agent:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_loves_agent'][.now?long % messages.value['user_loves_agent']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_misses_agent:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_misses_agent'][.now?long % messages.value['user_misses_agent']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_needs_advice:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_needs_advice'][.now?long % messages.value['user_needs_advice']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_sad:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_sad'][.now?long % messages.value['user_sad']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_sleepy:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_sleepy'][.now?long % messages.value['user_sleepy']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_testing_agent:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_testing_agent'][.now?long % messages.value['user_testing_agent']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_tired:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_tired'][.now?long % messages.value['user_tired']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_waits:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_waits'][.now?long % messages.value['user_waits']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_wants_to_see_agent_again:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_wants_to_see_agent_again'][.now?long % messages.value['user_wants_to_see_agent_again']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_wants_to_talk:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_wants_to_talk'][.now?long % messages.value['user_wants_to_talk']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"
+      
+#handle - 
+  user_will_be_back:
+    component: "System.Output"
+    properties:
+      text: "${messages.value['user_will_be_back'][.now?long % messages.value['user_will_be_back']?size]}"
+      keepTurn: true
+    transitions:
+      next : "closingStatement"

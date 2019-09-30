@@ -2,69 +2,6 @@
   "name" : "weather_chat",
   "intentParameters" : [ ],
   "exampleData" : [ {
-    "sentence" : "give me a weather quote",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "is there anything like bad weather",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Will it rain",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "What's the weather like",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Do you know if the sun is shining today?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "where do I find snow today",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Its really hot in here",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "We had a thunderstorm yesterday",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "is it going to be sunny all week",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
     "sentence" : "will it train tomorrow",
     "translated" : null,
     "detectedLanguage" : null,
@@ -79,7 +16,7 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "What  is the weather like",
+    "sentence" : "Its really hot in here",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -100,7 +37,7 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Get me to where thunderstorms are",
+    "sentence" : "is it going to be sunny all week",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -114,6 +51,34 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
+    "sentence" : "please forecast the weather for me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "We had a thunderstorm yesterday",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "What  is the weather like",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "where do I find snow today",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
     "sentence" : "What is the weather",
     "translated" : null,
     "detectedLanguage" : null,
@@ -121,7 +86,42 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "please forecast the weather for me",
+    "sentence" : "Get me to where thunderstorms are",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "is there anything like bad weather",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Do you know if the sun is shining today?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "give me a weather quote",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "What's the weather like",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Will it rain",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,

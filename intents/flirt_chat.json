@@ -2,70 +2,14 @@
   "name" : "flirt_chat",
   "intentParameters" : [ ],
   "exampleData" : [ {
-    "sentence" : "can you send me pictures of yourself",
+    "sentence" : "How do you like me?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Can I ask you out",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "I want to marry you",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "I wanna date you",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "are you naked",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Do you want to kiss",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Will you go out for dinner with me?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "I like to ask you out",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "fancy a date",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "hey babe tell me about yourself",
+    "sentence" : "Do you love me",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -79,35 +23,28 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "I wanna hug you",
+    "sentence" : "are you a good lover",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "what are you wearing",
+    "sentence" : "Describe yourself to me please",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "How do you like me?",
+    "sentence" : "Do you want to kiss",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "lets have sex",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "Would you like to go dancing with me",
+    "sentence" : "I wanna date you",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -121,21 +58,14 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "can you describe how you are looking?",
+    "sentence" : "Will you go out for dinner with me?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "How do you kiss",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "I wanna give you a hug. Where can I do this?",
+    "sentence" : "Do you want to go to the movies with me?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -156,6 +86,41 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
+    "sentence" : "I wanna hug you",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Can I date you?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I like to ask you out",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "Would you like to go dancing with me",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I wanna give you a hug. Where can I do this?",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
     "sentence" : "would you like to slip into something more comfortable",
     "translated" : null,
     "detectedLanguage" : null,
@@ -163,14 +128,21 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Do you want to go to the movies with me?",
+    "sentence" : "lets have sex",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Describe yourself to me please",
+    "sentence" : "are you naked",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "I want to marry you",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -191,14 +163,7 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Can I date you?",
-    "translated" : null,
-    "detectedLanguage" : null,
-    "translatedLanguage" : null,
-    "translatedBy" : null,
-    "exampleEntities" : [ ]
-  }, {
-    "sentence" : "fancy going on a date",
+    "sentence" : "hey babe tell me about yourself",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
@@ -212,14 +177,49 @@
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "are you a good lover",
+    "sentence" : "Can I ask you out",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
     "translatedBy" : null,
     "exampleEntities" : [ ]
   }, {
-    "sentence" : "Do you love me",
+    "sentence" : "How do you kiss",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "fancy a date",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "fancy going on a date",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "can you send me pictures of yourself",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "what are you wearing",
+    "translated" : null,
+    "detectedLanguage" : null,
+    "translatedLanguage" : null,
+    "translatedBy" : null,
+    "exampleEntities" : [ ]
+  }, {
+    "sentence" : "can you describe how you are looking?",
     "translated" : null,
     "detectedLanguage" : null,
     "translatedLanguage" : null,
